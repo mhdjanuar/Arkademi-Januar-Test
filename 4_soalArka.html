@@ -1,0 +1,23 @@
+<html>
+   <body>
+      <script type = "text/javascript">
+        function cetak_gambar() {
+          var string = ['P','R','O','G','R','A','M','M','E','R'];
+
+          for(i = 0; i < string.length; i++) {
+             for (var j = 0; j < string.length; j++) {
+                if(i == j || j == string.length-i+-1){
+                   document.write(string[i]," &nbsp&nbsp");
+                }
+                else {
+                   document.write("= &nbsp &nbsp");
+                }
+             }
+              document.write("<br>");
+          }
+        }
+        // jalankan fungsi
+        cetak_gambar();
+      </script>
+   </body>
+</html>
